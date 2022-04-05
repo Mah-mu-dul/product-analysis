@@ -1,5 +1,9 @@
 live site: https://best-bike-r15m-by-mahmudul.netlify.app/
 
+* added graph into dash board
+* add revious
+* add hooks
+* use custom hooks
 
 
 
