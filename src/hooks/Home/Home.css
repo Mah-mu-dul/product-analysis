@@ -15,7 +15,13 @@ img{
     color: rgba(21, 0, 255, 0.637);
     font-size: 70px;
     padding-bottom: 20px;
+    font-weight: bold;
 }
 .head-discription p {
     color: rgb(81, 100, 117);
 }
+.reviews{
+    width: 80%;
+    margin: 200px auto;
+    text-align: center;
+    }
