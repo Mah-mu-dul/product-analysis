@@ -1,6 +1,11 @@
 .nav-items{
-    color:rgb(4, 63, 255) ;
+    color:rgb(45, 28, 9) ;
     text-decoration: none;
-    margin-left: 10px;
-    font-size: 30px;
+    margin: 0px 30px;
+    font-size: 20px;
+}
+nav{
+    background-color: rgba(149, 91, 249, 0.096);
+    margin-top: 30px;
+        padding: 15px;
 }
