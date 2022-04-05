@@ -1,6 +1,7 @@
 import React from 'react';
 import pic from './b.png'
 import { Button } from 'react-bootstrap';
+import Sreview from '../Sreview/Sreview';
 
 
 
@@ -17,7 +18,6 @@ const Home = () => {
             </div>
             <div className="reviews">
                 <h1 >Coustomar Review {}</h1>
-
 
                 <Button className='btn btn-primary'>see all reviews</Button>
             </div>

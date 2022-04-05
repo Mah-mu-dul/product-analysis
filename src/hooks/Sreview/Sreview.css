@@ -1,0 +1,8 @@
+
+.single-review{
+    border: 1px solid rgb(239, 208, 55);
+    background-color: rgba(255, 228, 196, 0.388);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 3px;
+}

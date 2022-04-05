@@ -1,0 +1,38 @@
+[
+    {
+        "name": "kader",
+        "id": 1,
+        "rating": 4.5,
+        "coment": "This bike is awesome."
+    },
+    {
+        "name": "Mahmudul",
+        "id": 1,
+        "rating": 3.5,
+        "coment": "Excelent bike !! but so expensive"
+    },
+    {
+        "name": "sharu",
+        "id": 1,
+        "rating": 4.5,
+        "coment": "Not bad!!"
+    },
+    {
+        "name": "arman",
+        "id": 1,
+        "rating": 5,
+        "coment": "Highly costly"
+    },
+    {
+        "name": "zahid",
+        "id": 1,
+        "rating": 4.5,
+        "coment": "No money to buy it"
+    },
+    {
+        "name": "mehedi",
+        "id": 1,
+        "rating": 2,
+        "coment": "Black one is better then white one"
+    }
+]

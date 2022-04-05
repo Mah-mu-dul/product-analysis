@@ -11,6 +11,7 @@ import './hooks/Blogs/Blogs.css'
 import './hooks/Dashboard/Dashboard.css'
 import './hooks/Home/Home.css'
 import './hooks/Review/Review.css'
+import './hooks/Sreview/Sreview.css'
 
 
 
