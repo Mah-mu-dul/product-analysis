@@ -1,4 +1,6 @@
 import React from 'react';
+import { Tooltip } from 'react-bootstrap';
+import { Legend, Line, LineChart, Pie, PieChart, XAxis, YAxis } from 'recharts';
 
 const MyChart = () => {
     const data = [
@@ -41,7 +43,39 @@ const MyChart = () => {
     ]
     return (
         <div>
-            <h1>month:{data[0].month}</h1>
+            <div className="top d-flex justify-content-around">
+                <div className="line-chart">
+                    <h2 className='primary'>Monthly Sell</h2>
+                    <LineChart width={400} height={400} data={data}>
+                        <XAxis dataKey="month" />
+                        <YAxis />
+                        <Tooltip />
+                        <Legend />
+                        <Line type="monotone" dataKey="sell" stroke="#125466" />
+                    </LineChart>
+                </div>
+                <div className="pi-chart">
+                    <h2>Monthly Revenue </h2>
+                    <PieChart width={400} height={400}>
+                        <Pie
+                            dataKey="revenue"
+                            isAnimationActive={false}
+                            data={data}
+                            cx="50%"
+                            cy="50%"
+                            outerRadius={80}
+                            fill="#8884d8"
+                            label
+                        />
+
+                        <Tooltip />
+                    </PieChart>
+                </div>
+            </div>
+            <div className="bottom">
+
+            </div>
+            
         </div>
     );
 };
